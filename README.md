@@ -18,12 +18,17 @@ start server :
 php -S localhost:8080   
 ```
 
+### Database configuration 
+in file  src/Core/PgsqlConnectionPool.php
+...
+    private $host = '131.0.96.82'; //REMOTE SERVER
+    private $user = 'postgres';
+    private $password = 'entra@1234';
+    private $database = 'postgres';
+....
 
 
 
-### Example of making API calls 
 
-It's convenient to use singleton class `PosterApi`. 
-All you need to is initialize class with user credentials and then you can call Poster API methods anywhere in your project   
 
 
