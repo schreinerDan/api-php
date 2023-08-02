@@ -19,6 +19,8 @@ php -S localhost:8080
 ```
 
 
+
+
 ### Example of making API calls 
 
 It's convenient to use singleton class `PosterApi`. 
