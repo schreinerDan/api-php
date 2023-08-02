@@ -10,9 +10,9 @@ class PgsqlConnectionPool
     private $connections = [];
     private $config;
     private $maxConnections =10;
-    private $host = 'localhost';
+    private $host = '131.0.96.82';
     private $user = 'postgres';
-    private $password = '1234';
+    private $password = 'entra@1234';
     private $database = 'postgres';
 
     public function __construct()
